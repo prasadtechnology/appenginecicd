@@ -4,7 +4,7 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello, world!')
+    .send('Hello, world! I am from the cicd')
     .end();
 });
 // Start the server
